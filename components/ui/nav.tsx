@@ -2,24 +2,25 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <header className="w-full border-b py-4">
+    <header className="sticky top-0 z-50 bg-white/80 w-full py-4">
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between">
-        {/* Left: Logo or Name */}
-        <Link href="/" className="text-lg font-semibold font-urbanist">
-          John Doe
+
+        <Link href="/" className="text-2xl font-semibold">
+          Sophia Zou
         </Link>
         
 
-        {/* Right: Nav Links */}
-        <nav className="flex space-x-6 text-sm font-medium">
-          <Link href="#about" className="hover:underline">
-            About
+  
+        <nav className="flex space-x-6 text-2xl font-medium">
+        
+          <Link href="#experience" className="hover:underline">
+            Experience
           </Link>
           <Link href="#projects" className="hover:underline">
             Projects
           </Link>
-          <Link href="#contact" className="hover:underline">
-            Contact
+          <Link href="#classes" className="hover:underline">
+            Classes
           </Link>
         </nav>
       </div>

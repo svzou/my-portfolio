@@ -27,7 +27,7 @@ const projects = [
       tags: ["Python", "PyTorch", "OpenCV", "MobileNetV2", "CNNs"],
       link: {
         label: "Report",
-        url: "https://example.com",
+        url: "https://drive.google.com/file/d/1q6y8KVtMbr1ldTyllTuVMEAvIzdUmKbL/view?usp=sharing",
       },
     },
     {
@@ -47,7 +47,7 @@ const projects = [
   
   export default function Projects() {
     return (
-      <section id="projects" className="py-24 bg-gradient-to-b from-white to-gray-100 dark:from-black dark:to-zinc-900">
+      <section id="projects" className="py-24 ">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-12">Projects</h2>
   
@@ -55,10 +55,10 @@ const projects = [
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className="group border border-gray-200/60 dark:border-zinc-800 bg-white/30 dark:bg-zinc-800/30 backdrop-blur-sm hover:shadow-xl transition-all duration-300"
+                className="group border border-gray-200/60 bg-white/30 hover:shadow-xl transition-all duration-300"
               >
                 <CardHeader className="space-y-2">
-                  <CardTitle className="text-xl group-hover:text-primary transition-colors">
+                  <CardTitle className="text-2xl group-hover:text-primary transition-colors">
                     {project.title}
                   </CardTitle>
                   <div className="flex flex-wrap gap-2">
@@ -70,18 +70,22 @@ const projects = [
                   </div>
                 </CardHeader>
   
-                <CardContent className="space-y-3 text-sm text-muted-foreground">
+                <CardContent className="space-y-3 text-md text-muted-foreground">
                   {project.description.map((line, i) => (
                     <p key={i} className="leading-relaxed">
                       {line}
                     </p>
                   ))}
   
-                  <Button asChild variant="link" className="px-0 text-sm">
-                    <Link href={project.link.url} target="_blank" rel="noopener noreferrer">
-                      {project.link.label} →
-                    </Link>
-                  </Button>
+  <Button
+  asChild
+  className="bg-slate-700 text-white hover:bg-slate-500 transition-colors duration-300 text-sm font-medium rounded px-4 py-2 shadow-md hover:shadow-lg"
+>
+  <Link href={project.link.url} target="_blank" rel="noopener noreferrer">
+    {project.link.label} →
+  </Link>
+</Button>
+
                 </CardContent>
               </Card>
             ))}
