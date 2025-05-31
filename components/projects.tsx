@@ -14,7 +14,7 @@ const projects = [
       tags: ["React", "Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
       link: {
         label: "GitHub",
-        url: "https://github.com/svzou/COMP-426-final-project",
+        url: "https://github.com/svzou/pulse-app",
       },
     },
     {

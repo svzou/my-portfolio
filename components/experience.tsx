@@ -52,7 +52,7 @@ const experiences = [
       company: "Diversity On Ice Nonprofit",
       location: "Cincinnati, OH",
       url: "https://diversityonice.org/",
-      logo: "/logos/doiplaceholder.png",
+      logo: "/logos/doi.png",
       date: "Dec 2019 – Jan 2024",
       description: [
         "Founded a 501(c)(3) nonprofit offering free figure skating lessons to underrepresented communities.",
