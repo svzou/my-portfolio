@@ -1,10 +1,25 @@
-export default function Footer(){
+import Link from "next/link";
+
+export default function Footer() {
     return (
-        <footer className="bg-white py-4 text-center">
-        <p className="text-sm">
-            &copy; {new Date().getFullYear()} Sophia Zou. All rights reserved.
-        </p>
-       
-        </footer>
+      <footer className=" text-sm py-6">
+        <div className="max-w-4xl mx-auto px-4 flex flex-col justify-between items-center space-y-2">
+          <p>
+            &copy; {new Date().getFullYear()} Sophia Zou
+          </p>
+          <div className="flex items-center space-x-4">
+             <span >Built with Next.js & React</span>
+            <span className="hidden sm:inline">|</span>
+           <a
+              href="https://github.com/svzou/my-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-black"
+            >
+              GitHub Repo
+            </a>
+          </div>
+        </div>
+      </footer>
     );
-}
+  }
