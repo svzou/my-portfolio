@@ -11,10 +11,9 @@ const experiences = [
       logo: "/logos/gaig.png",
       date: "May 2025 – Aug 2025",
       description: [
-        "Delivering a custom Humio dashboard for centralized error logging, reducing time to identify and resolve application issues.",
-        "Improving developer debugging efficiency through enhanced log visibility.",
-        "Championed cross-functional alignment across teams to define product vision and roadmap.",
-        "Streamlined backlog grooming and delivered cloud-native features using Agile XP and TDD.",
+"Built a centralized Humio dashboard for real-time error logging across Predictive Analytics applications and authored internal documentation to enable 15 team members to efficiently monitor and resolve issues",
+        "Collaborated with engineering, design, and QA teams to define user stories, write acceptance criteria, and manage Agile sprint backlogs in Rally, accelerating delivery of cloud-native features",
+        "Developed an AI-powered automation workflow using Microsoft 365 Copilot to decommission legacy applications",
       ],
 
     },
@@ -26,9 +25,8 @@ const experiences = [
       logo: "/logos/gwc.png",
       date: "May 2023 – Aug 2024",
       description: [
-        "Promoted to Lead TA for excellence in teaching 300+ students game design basics with p5.js.",
-        "Guided students to develop Interactive Avatar, Choose Your Own Adventure, and Collection-style games.",
-        "Led debugging sessions and code reviews to reduce blocker resolution time by 50%.",
+"Promoted to Lead TA for excellence in teaching 300+ students game design basics with p5.js, guiding each student to develop their own Interactive Avatar Game, Choose Your Own Adventure Game, and Collection Style Game",
+        "Led debugging sessions and code reviews to reduce blocker resolution time by 50% during final project development",
         "Managed corporate partner collaborations with RTX, Bank of America, Morgan Stanley, and MetLife.",
       ],
 
@@ -41,9 +39,9 @@ const experiences = [
       logo: "/logos/p&g.png",
       date: "May 2021 – Aug 2021",
       description: [
-        "Analyzed $1M+ in cloud operating costs using Microsoft Azure and Power BI.",
-        "Developed dashboards that revealed 10–15% savings potential for senior stakeholders.",
-        "Cultivated relationships with 10+ employees to present cultural insights to 60+ interns and staff.",
+        "Analyzed $1M+ in cloud operating costs using Microsoft Azure and Power BI",
+        "Developed dashboards that revealed 10–15% savings potential for senior stakeholders",
+        "Cultivated relationships with 10+ employees to present cultural insights to 60+ interns and staff",
       ],
 
     },
@@ -55,8 +53,8 @@ const experiences = [
       logo: "/logos/doi.png",
       date: "Dec 2019 – Jan 2024",
       description: [
-        "Founded a 501(c)(3) nonprofit offering free figure skating lessons to underrepresented communities.",
-        "Designed and maintained the website, enabling 100+ sign-ups.",
+        "Founded a 501(c)(3) nonprofit offering free figure skating lessons to underrepresented individuals in the sport",
+        "Designed and maintained website, enabling 100+ sign-ups",
       ],
 
     },

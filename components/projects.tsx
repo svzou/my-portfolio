@@ -43,6 +43,28 @@ const projects = [
         url: "https://github.com/svzou/projects/tree/main/akariPuzzleGame",
       },
     },
+    {
+      title: "Sophia's Pokédex",
+      description: [
+        "Built a Pokédex web app to display paginated Pokémon data from the PokeAPI. Implemented client-side data fetching with React Query and server-side rendering for dynamic detail pages."
+      ],
+      tags: ["Next.js", "React Query", "TypeScript", "Tailwind CSS", "PokeAPI"],
+      link: {
+        label: "Play here",
+        url: "https://sophias-pokedex.vercel.app/",
+      },
+    },
+    {
+      title: "Wordle Clone",
+      description: [
+        "Recreated the Wordle game, complete with tile-based feedback and keyboard interaction.  Integrated external APIs to validate user input and fetch random words, and deployed the game live using Vercel with a Vite setup."
+      ],
+      tags: ["React", "REST APIs", "Vite", "Tailwind CSS"],
+      link: {
+        label: "Play here",
+        url: "https://sophias-wordle.vercel.app/",
+      },
+    },
   ]
   
   export default function Projects() {
