@@ -85,14 +85,7 @@ const experiences = [
                 </Link>
                 <div>
                   <h3 className="text-xl font-semibold">{exp.role}</h3>
-                  <Link
-                    href={exp.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-gray-500 hover:underline"
-                  >
                     {exp.company} · {exp.location}
-                  </Link>
                 </div>
               </div>
               <span className="text-sm text-gray-500 mt-2 sm:mt-0">
