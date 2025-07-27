@@ -20,11 +20,11 @@ const projects = [
     {
       title: "Real-Time Yoga Pose Recognition",
       description: [
-        "Co-developed a real-time yoga pose classification system using fine-tuned MobileNetV2, achieving 78.4% test accuracy with 30 FPS performance on CPU-only devices.",
-        "Integrated live webcam input with pose detection and dynamic sequence recommendation, enabling interactive yoga sessions based on user-selected difficulty.",
-        "Engineered a lightweight computer vision pipeline with data cleaning, class balancing, and augmentation to ensure robust, generalized pose recognition across 12 classes.",
+        "Co-developed a real-time yoga pose recognition and feedback system via webcam input by engineering a computer vision pipeline with OpenCV and Torchvision.",
+        "Achieved 78.4% classification accuracy on the Yoga-82 dataset by fine-tuning a MobileNetV2 CNN for multi-class yoga pose recognition",
+        "Implemented advanced data preprocessing, including cleaning, class balancing, and augmentation to optimize model training across 12 yoga pose classes.",
       ],
-      tags: ["Python", "PyTorch", "OpenCV", "MobileNetV2", "CNNs"],
+      tags: ["Python", "PyTorch", "OpenCV", "Computer Vision", "MobileNetV2", "Transfer Learning"],
       link: {
         label: "Report",
         url: "https://drive.google.com/file/d/1q6y8KVtMbr1ldTyllTuVMEAvIzdUmKbL/view?usp=sharing",
@@ -63,6 +63,17 @@ const projects = [
       link: {
         label: "Play here",
         url: "https://sophias-wordle.vercel.app/",
+      },
+    },
+    {
+      title: "This Portfolio",
+      description: [
+        "Developed this portfolio to showcase my projects. Built with React and Next.js and styled using Tailwind CSS and Shadcn UI for a modern design. Deployed on Vercel and integrated with Google Analytics.",
+      ],
+      tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vercel", "Google Analytics"],
+      link: {
+        label: "You're already here",
+        url: "https://sophiazou.vercel.app/",
       },
     },
   ]

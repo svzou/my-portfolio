@@ -8,8 +8,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Sophia Zou
           </p>
           <div className="flex items-center space-x-4">
-             <span >Built with React (Next.js) & TypeScript</span>
-            <span className="hidden sm:inline">|</span>
+             <span >Built with Next.js and React</span>
+             <span className="hidden sm:inline">→</span>
            <a
               href="https://github.com/svzou/my-portfolio"
               target="_blank"
