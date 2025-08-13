@@ -19,7 +19,7 @@ export default function Hero() {
           Welcome to my corner of the internet!
         </h1>
         <p className="text-muted-foreground text-lg md:text-xl mb-6">
-          I am a Rising Senior from Cincinnati, Ohio 🏠 attending the University of North Carolina at Chapel Hill 📚 majoring in Computer Science 💻 and minoring in Business Administration 💼.
+          I am a Senior from Cincinnati, Ohio 🏠 attending the University of North Carolina at Chapel Hill 📚 majoring in Computer Science 💻 and minoring in Business Administration 💼.
           You can usually find me lifting 💪 at the gym or on walks 🚶‍♀️ around campus.
           Some fun facts: I was a figure skater ⛸️ for 13 years and I have a dog 🐶 named Candi.
         </p>
