@@ -39,12 +39,20 @@ export default function Classes() {
         description: "Search algorithms, combinatorial search, probabilistic models and reasoning",
       },
       {
+        title: "BUSI 403: Operations Management",
+        description: "Forecasting demand, process/capacity analysis, inventory management",
+      },
+      {
         title: "BUSI 406: Marketing",
         description: "Consumer behavior, marketing functions, distribution channels",
       },
     {
       title: "BUSI 408: Corporate Finance",
       description: "Cash flow analysis, capital structure, capital budgeting",
+    },
+    {
+      title: "BUSI/COMP 488: Data Science in the Business World",
+      description: "Agentic AI, generative AI, machine learning",
     },
     {
       title: "BUSI 500: Entrepreneurship and Business Planning",

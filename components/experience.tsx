@@ -9,9 +9,9 @@ const experiences = [
       location: "Greensboro, NC",
       url: "https://www.volvogroup.com/",
       logo: "/logos/volvo.png",
-      date: "Aug 2025 – Dec 2025",
+      date: "Aug 2025 – May 2026",
       description: [
-        "Onboarding into a role focused on building ML models to optimize part descriptions, categorization, and VMRS coding within a PIM system"
+        "Built a machine learning model to automate VMRS code classification for 1M+ vehicle part records in a Product Information Management (PIM) system, eliminating hundreds of hours of manual data entry"
       ],
     },
     {
