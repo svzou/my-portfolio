@@ -23,9 +23,6 @@ export default function Hero() {
           You can usually find me lifting 💪 at the gym or on walks 🚶‍♀️ around campus.
           Some fun facts: I was a figure skater ⛸️ for 13 years and I have a dog 🐶 named Candi.
         </p>
-        <p className="text-muted-foreground text-lg italic font-bold mb-6">
-        Actively searching for entry-level Product Management roles beginning in May 2026.
-        </p>
 
         <div className="flex justify-center gap-6 mt-6 text-2xl">
           <a
