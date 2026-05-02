@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="flex justify-center mb-6">
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-md flex items-center justify-center">
             <img
-              src="/headshot.jpg"
+              src="/headshot.png"
               alt="Sophia Zou headshot"
               className="w-full h-full object-cover"
               style={{ aspectRatio: "1 / 1" }}

@@ -4,6 +4,17 @@ import Link from "next/link"
 
 const experiences = [
     {
+      role: "Associate Value Engineer",
+      company: "Celonis",
+      location: "Raleigh, NC",
+      url: "https://www.celonis.com/",
+      logo: "/logos/celonislogo.png",
+      date: "May 2026 - Present",
+      description: [
+        "Orbit Program"
+      ],
+    },
+    {
       role: "AI Engineer Intern",
       company: "Volvo Group",
       location: "Greensboro, NC",
@@ -11,7 +22,9 @@ const experiences = [
       logo: "/logos/volvo.png",
       date: "Aug 2025 – May 2026",
       description: [
-        "Built a machine learning model to automate VMRS code classification for 1M+ vehicle part records in a Product Information Management (PIM) system, eliminating hundreds of hours of manual data entry"
+        "Built a machine learning model to automate VMRS code classification for 1M+ vehicle part records in a Product Information Management (PIM) system, eliminating hundreds of hours of manual data entry",
+        "Developed a tool that processes COBOL programs through LLMs to generate business-friendly Mermaid flowcharts"
+
       ],
     },
     {
